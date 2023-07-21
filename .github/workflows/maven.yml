@@ -39,6 +39,6 @@ jobs:
         image: dhanesh16/shopfront
         tags: latest
         registry: docker.io
-        dockerfile: Dockerfile
+        dockerfile: ./Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
