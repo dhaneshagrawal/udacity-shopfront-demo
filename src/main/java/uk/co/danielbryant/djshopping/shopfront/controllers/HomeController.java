@@ -14,7 +14,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index(Model model) {
-        System.out.println("Testing for demo");
+        System.out.println("Testing for demo 2");
         model.addAttribute("products", productService.getProducts());
         return "index";
     }
